@@ -9,7 +9,7 @@ class UserInDB(BaseModel):
 database_users = Dict[str,UserInDB]
 
 database_users = {"raul10":UserInDB(**{"username":"raul10",
-                                        "password":"mintic12345",
+                                        "password":"mintic2022",
                                         "saldo":15000}),
                    "juan20":UserInDB(**{"username":"juan20",
                                         "password":"mintic2020",
